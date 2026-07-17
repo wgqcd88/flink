@@ -36,7 +36,7 @@ ARG PAIMON_VER="1.4.2"         # Flink 1.19：0.8.0、0.8.1、0.8.2、0.9.0、1.
 # Flink 1.20：0.9.0、1.0.0、1.0.1、1.1.0、1.1.1、1.2.0、1.3.1、1.3.2、1.4.1、1.4.2
 ARG HADOOP_VER="3.4.2"    # 如 3.4.2 (hdfs-client + mapreduce-client-core)
 
-ARG GH=https://github.com/wgqcd88/flink-azure-fs-hadoop/releases/download/hadoop-3.4.2
+ARG GH=https://github.com/wgqcd88/flink/releases/download/flink
 ARG MVN=https://repo1.maven.org/maven2
 
 USER root
